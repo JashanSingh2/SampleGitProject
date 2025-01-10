@@ -49,16 +49,18 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I6g-zM-MdF">
-                                <rect key="frame" x="159" y="162" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Added" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3Q-un-PoZ">
+                                <rect key="frame" x="148" y="103" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
+                            <constraint firstItem="x3Q-un-PoZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="148" id="1rQ-9F-oke"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="x3Q-un-PoZ" secondAttribute="trailing" constant="149" id="8jI-Mw-Z2S"/>
                             <constraint firstItem="9SS-0E-Jxe" firstAttribute="top" secondItem="Rw6-sb-v0U" secondAttribute="bottom" constant="29" id="AeN-Ek-ePH"/>
                             <constraint firstItem="Rw6-sb-v0U" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="139" id="B18-d6-SYS"/>
                             <constraint firstItem="9SS-0E-Jxe" firstAttribute="top" secondItem="Rw6-sb-v0U" secondAttribute="bottom" constant="29" id="BLu-m0-PGw"/>
@@ -74,6 +76,7 @@
                             <constraint firstItem="FFb-SO-gi4" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="303" id="cUk-My-67T"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="FFb-SO-gi4" secondAttribute="bottom" constant="328" id="dj5-9i-7tw"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="FFb-SO-gi4" secondAttribute="trailing" constant="77" id="hP8-dP-tVG"/>
+                            <constraint firstItem="x3Q-un-PoZ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="44" id="m2N-YT-7d0"/>
                             <constraint firstItem="spK-NR-b05" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="147" id="uW9-oO-7B7"/>
                         </constraints>
                     </view>
